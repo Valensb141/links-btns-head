@@ -1,0 +1,112 @@
+body {
+    font-family: 'Roboto', regular;
+    color: black;
+    background-color: white;
+    font-weight: 400;
+    margin-left: 300px;
+    margin-right: 300px;
+   }
+  
+
+  /* TITLES */
+  .main-title {
+    text-align: center;
+    background-color: #E6E4DA;
+    font-family: 'Fraunces', bold;
+    font-size: 40px;
+    padding: 30px;
+    
+  }
+   .titles-style {
+     color: white;
+     border-radius: 0px;
+     font-family: 'roboto', bold;
+     background-color: #004673;
+     padding: 6px;
+    }
+
+
+  /* COLOR BOXES */
+  .pattern-color {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+  
+  .bg-color-blue {
+    background-color: #004673;
+  }
+  
+  .bg-color-pink {
+    background-color: #EA4B6E;
+  }
+  
+  .bg-color-green {
+    background-color: #0D7438;
+  }
+  
+  .bg-color-yellow {
+    background-color: #FAB911;
+  }
+  
+  .bg-color-grey {
+    background-color: #E6E4DA;
+  }
+  
+  .bg-color-light-blue {
+    background-color: #A5D2EB;
+  }
+  
+  
+  /* BUTTONS */
+  li {
+    display: inline-block; 
+    margin: 0px; 
+    padding: 0px;
+  }
+  
+  .nav a {
+    background-color: pink;
+    padding: 6px;
+    margin: 0px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav a:hover {
+    background-color: #E6E4DA;
+  }
+  
+  button:hover,
+  button,
+  .btn {
+    display: inline-block;
+    padding: 0 20px;
+    background-color: #FAB911;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #E6E4DA;
+    line-height: 2; 
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #E6E4DA;
+  }
+  
+  .btn--secondary {
+    background-color: #E6E4DA;
+    color: #1e1e1e;
+  }
+  .btn--secondary:hover {
+    background-color: white;
+  }
+  
+  
