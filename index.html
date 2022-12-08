@@ -1,28 +1,53 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <link rel="stylesheet" src="index.css">
+      <link rel="stylesheet" href="https://use.typekit.net/uoe1foi.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/stylesheet.css">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+      </style>
+        
     </head>
 <body>
-    <h1 class="main-title">Valentina's Pattern Library</h1>
-  
-    <section>
-       <h2 class="titles-style">COLORS</h2>
-            
-       <h3>Main Color tints</h3>
-          <div class="pattern-color bg-color-blue" data-color="#004673"></div>
-          <div class="pattern-color bg-color-pink" data-color="#EA4B6E"></div>
-          <div class="pattern-color bg-color-green" data-color="#0D7438"></div>
-          <div class="pattern-color bg-color-yellow" data-color="#FAB911"></div>
-           
+  <!-- Header usando flex -->
+  <header>
+    Valentina's Pattern Library
+  </header>  
+
+  <!-- div-PADRE-->
+  <div class="flex-padre">
+
+    <!-- div-color-palettes-->
+    <div class="flex-hijo"> 
+      <h2 class="titles-style">Color Palettes</h2> 
       
-        <h3>Secondary Color tints</h3>
-          <div class="pattern-color bg-color-light-blue" data-color="#A5D2EB"></div>
-          <div class="pattern-color bg-color-grey" data-color="#E6E4DA"></div>
-    </section>
+      <h3>Main Color tints</h3>
+        <div class="flex-nieto">
+         <div class="pattern-color bg-color-blue"></div>
+         <div class="pattern-color bg-color-pink"></div>
+         <div class="pattern-color bg-color-green"></div>
+         <div class="pattern-color bg-color-yellow"></div>
+        </div>
+       <h3>Secondary Color tints</h3>
+         <div class="pattern-color bg-color-light-blue" data-color="#A5D2EB"></div>
+         <div class="pattern-color bg-color-grey" data-color="#E6E4DA"></div>
+   </div>
+
+   <!-- div-fonts-->
+   <div class="flex">
+    <h2 class="titles-style">Fonts</h2>
+    <p class="Neonoir-font">Neonoir, sans-serif</p>
+    <p class="quicksand-font">Quicksand, sans-serif</p>
+   </div>
+  </div>
+  
+   
     
     <section>
-         <h2 class="titles-style">HEADERS</h2>
+         <h2 class="titles-style">Headers</h2>
          <h1>H1:Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
          <h2>H2:Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
          <h3>H3:Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
@@ -32,7 +57,7 @@
     </section>
     
     <section>
-      <h2 class="titles-style" >BUTTONS</h2>
+      <h2 class="titles-style" >Buttons</h2>
       
       <ul class="nav">
             <li><a href="">button</a></li>
