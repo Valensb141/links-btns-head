@@ -1,143 +1,210 @@
 body {
-    font-family: 'Quicksand', sans-serif;
-    color: black;
-    background-color: #E6E4DA;
-    font-weight: 400;
-    margin: 0;
-   }
-  
-   header {
-    display: flex;
-    background-color: #E6E4DA;
-    padding: 30px;
-    font-size: 36px;
+  font-family: 'Quicksand', sans-serif;
+  color: #272525;;
+  background-color: #272525;
+  font-weight: 400;
+  margin: 0;
+  padding-left: calc((100% - 700px)/2);
+  padding-right: calc((100% - 700px)/2);
+
+ }
+
+ header {
+  display: flex;
+  color: white;
+  padding: 18px;
+  font-size: 32px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  justify-content: center;
+  text-align: flex;
+ }
+
+ .flex-padre {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 10px;
+  margin: 12px;
+
+
+ }
+
+ .flex-hijo {
+  background-color: white;
+  border-radius: 30px;
+  margin: 12px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-wrap: wrap;
+
+ }
+
+ .flex-nieto {
+  display: flex;
+  margin: 12px;
+  flex-direction: row;
+  gap: 6px;
+
+ }
+
+/* TITLES */
+ .titles-style {
+   color: #004673;
+   border-radius: 0px;
+   font-family: 'Quicksand', sans-serif;
+   
+  }
+
+  /* STYLES */
+  .Neonoir-font {
     font-family: neonoir, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    justify-content: center;
-    text-align: flex;
-   }
+  }
 
-   .flex-padre {
-    display: flex;
-    background-color: white;
-    border-radius: 12px;
-    gap: 18px;
-    margin: 18px;
-   }
-
-   .flex-hijo {
-    display: flex;
-    margin: 12px;
-    flex-direction: column;
-   }
-
-   .flex-nieto {
-    display: flex;
-    margin: 12px;
-    flex-direction: row;
-   }
-
-  /* TITLES */
-
-   .titles-style {
-     color: #004673;
-     border-radius: 0px;
-     font-family: 'Quicksand', sans-serif;
-     
-     padding: 6px;
-    }
-
-    /* STYLES */
-    .Neonoir-font {
-      font-family: neonoir, sans-serif;
-    }
-
-    .quicksand-font {
-      font-family: 'Quicksand', sans-serif;
-    }
-
-  /* COLOR BOXES */
-  .pattern-color {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    position: relative;
-  }
-  
-  .bg-color-blue {
-    background-color: #004673;
-  }
-  
-  .bg-color-pink {
-    background-color: #EA4B6E;
-  }
-  
-  .bg-color-green {
-    background-color: #0D7438;
-  }
-  
-  .bg-color-yellow {
-    background-color: #FAB911;
-  }
-  
-  .bg-color-grey {
-    background-color: #E6E4DA;
-  }
-  
-  .bg-color-light-blue {
-    background-color: #A5D2EB;
-  }
-  
-  
-  /* BUTTONS */
-  li {
-    display: inline-block; 
-    margin: 0px; 
-    padding: 0px;
-  }
-  
-  .nav a {
-    background-color: pink;
-    padding: 6px;
-    margin: 0px;
-    border-radius: 3px;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .nav a:hover {
-    background-color: #E6E4DA;
-  }
-  
-  button:hover,
-  button,
-  .btn {
-    display: inline-block;
-    padding: 0 20px;
-    background-color: #FAB911;
-    text-decoration: none;
-    color: white;
-    border: 1px solid #E6E4DA;
-    line-height: 2; 
-    text-transform: uppercase;
+  .quicksand-font {
     font-family: 'Quicksand', sans-serif;
-    font-weight: 600;
-    font-size: 1rem;
-    letter-spacing: 2px;
-    cursor: pointer;
   }
-  
-  .btn:hover {
-    background-color: #E6E4DA;
-  }
-  
-  .btn--secondary {
-    background-color: #E6E4DA;
-    color: #1e1e1e;
-  }
-  .btn--secondary:hover {
-    background-color: white;
-  }
-  
-  
+
+/* COLOR BOXES */
+.pattern-color {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.bg-color-blue {
+  background-color: #004673;
+}
+
+.bg-color-pink {
+  background-color: #EA4B6E;
+}
+
+.bg-color-green {
+  background-color: #0D7438;
+}
+
+.bg-color-yellow {
+  background-color: #FAB911;
+}
+
+.bg-color-grey {
+  background-color: #E6E4DA;
+}
+
+.bg-color-light-blue {
+  background-color: #A5D2EB;
+}
+
+
+/* BUTTONS */
+li {
+  display: inline-block; 
+  margin: 0px; 
+  padding: 0px;
+}
+
+.nav a {
+  background-color: pink;
+  padding: 6px;
+  margin: 0px;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #E6E4DA;
+}
+
+button:hover,
+button,
+.btn {
+  display: flex;
+  padding: 0 20px;
+  background-color: #FAB911;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #E6E4DA;
+  line-height: 2; 
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+  width: 500px;
+}
+
+.btn:hover {
+  background-color: #E6E4DA;
+}
+
+.btn--secondary {
+  background-color: #E6E4DA;
+  color: #1e1e1e;
+}
+.btn--secondary:hover {
+  background-color: white;
+}
+
+/* IMPUTS */
+
+input[type="text"] {
+  width: 300px;
+}
+
+input[type="email"] {
+  width: 300px;
+}
+
+input[type="text"]:focus {
+background-color: grey;
+}
+
+[type="radio"], [type="checkbox"] {
+  appearance: none;
+  height: 12px;
+  width: 12px;
+  background-color: grey;
+  border-radius: 12px;
+}
+
+[type="radio"]:checked, [type="checkbox"]:checked {
+  background-color: pink;
+}
+
+[type="checkbox"] {
+  /* display:none ------ hace que esté, pero no se vea en pantalla*/ 
+  border-radius: 0px;
+  margin: 0px;
+}
+
+/* LABEL: QUE HACER PLACEHOLDER: COMO HACERLO EJ. "PON TU EMAIL"*/ 
+
+/* display:none */
+.yuhuuu {
+  background-color: olive;
+  padding: 8px;
+  color: white;
+  display: none;
+}
+
+/* cuando .checkbox este :checked + aparece su hermano directo .yuhuuu --> display: block */
+.checkbox:checked + .yuhuuu {
+  display: block;
+}
+
+
+/* PSEUDO ELEMENTOS */
+/* son netamente decorativos. No se ven en html */
+span::before , span::after {
+  content: " Hola ";
+  width: 10px;
+  height: 10px;
+  background: pink;
+}
